@@ -21,11 +21,14 @@ pub enum Si {
     m,   //meter, length
     kg,  //kilogram, mass
     A,   //ampere, electrict current
-    K,   //kelvin, thermodynamic tempreature
+    K,   //kelvin, thermodynamic temprature
     mol, //mole, amount of substance
     cd,  //candela, lumiunous intensity
-    v,   //velocity (m/s)
-    a,   //acceleration (m/s^2)
+    v,   //velocity (m / s)
+    a,   //acceleration (m / s^2)
+    Pa,  // Pascal (N / m^2 = kg/(m * s^2) ) - https://en.wikipedia.org/wiki/Pascal_(unit)
+    N,   // Newton ((kg * m) / s^2 ) - https://en.wikipedia.org/wiki/Newton_(unit)
+    Da,  // Dalton - https://en.wikipedia.org/wiki/Dalton_(unit)
 }
 
 pub struct Variable {
