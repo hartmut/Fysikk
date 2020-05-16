@@ -8,8 +8,11 @@
 //! # Example:
 //! ```
 
+extern crate measurements;
+
 #[allow(non_snake_case)]
 pub mod mechanics;
+pub mod pressure;
 pub mod valuetype;
 
 #[cfg(test)]
