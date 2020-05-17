@@ -1,5 +1,6 @@
 //! classical mechanics
 use valuetype::*;
+use SiTime::*;
 
 pub fn Distance_from_speed(time: Variable, speed: Variable) -> Variable {
     let t = conv2_sibase_time(time);
