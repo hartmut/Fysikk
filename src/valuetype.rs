@@ -1,5 +1,5 @@
 //! definition of types and structs
-use SiTime::SiTime;
+use si_time::SiTime;
 // based on https://en.wikipedia.org/wiki/International_System_of_Units#Base_units
 // base units
 #[allow(non_camel_case_types)]

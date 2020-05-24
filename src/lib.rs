@@ -10,10 +10,10 @@
 
 extern crate measurements;
 
-pub mod SiTime;
 #[allow(non_snake_case)]
 pub mod mechanics;
 pub mod pressure;
+pub mod si_time;
 pub mod valuetype;
 
 #[cfg(test)]

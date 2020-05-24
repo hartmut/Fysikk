@@ -1,7 +1,7 @@
 use valuetype::*;
 
 // partial pressure
-pub fn partial_pressure(abs_pressue: Variable, fraction: f64) -> Variable {
+pub fn partial_pressure(_abs_pressue: Variable, _fraction: f64) -> Variable {
     Variable {
         value: 1.0,
         unit: Si::Pa,
